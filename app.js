@@ -90,3 +90,129 @@
 // var arr = ["This"," is"," my"," cat"];
 // document.write(arr.join([]))
 
+//Question#13
+// var devices = ["Keyboard","Mouse","Printer"]
+// document.write("Device:<br>" + devices +"<br>")
+// for(var i=0; i<devices.length;i++){
+//         document.write("Out:<br>"+devices[i]+"<br>")
+// }
+
+//Question#14
+// var devices = ["Keyboard","Mouse","Printer"]
+// document.write("Device:<br>" + devices +"<br>")
+// for(var i=devices.length-1; i>=0 ;i--){
+//         document.write("Out:<br>"+devices[i]+"<br>")
+// }
+
+//                 Chapter#17-20
+//Question#1
+// var arr =[[]]
+
+//Question#2
+// var arr =[[0 , 1 , 2 , 3],[1 , 0 , 1 , 2],[2 , 1 , 0 , 1]]
+// document.write(arr[0]+"<br>")
+// document.write(arr[1]+"<br>")
+// document.write(arr[2]+"<br>")
+
+//Question#3
+// for(var i=1;i<=10;i++){
+//     document.write(i+"<br>")
+// }
+
+//Question#4
+// var tablenNum = +prompt("Enter Table Number")
+// var tableLength = +prompt("Enter Table Length")
+// for(var i=1;i<=tableLength;i++){
+//     document.write(tablenNum+"x"+i+"="+tablenNum*i+"<br>")
+// }
+
+//Question#5
+// var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+// for(var i = 0; i<fruits.length;i++){
+// document.write(fruits[i]+"<br>")
+// }
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + i + " " + fruits[i], "<br >")
+// } 
+
+//Question#6
+//Part A
+// for(var i =1;i<=10;i++){
+//     document.write(i+",")
+// }
+
+//Part B
+// for(var i =10;i>=1;i--){
+//     document.write(i+",")
+// }
+
+//Part C
+// for (var i = 0; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//         console.log(i)
+//     }
+// }
+
+//Part D
+// for (var i = 0; i <= 20; i++) {
+//         if (i % 2 !== 0) {
+//             console.log(i)
+//         }
+//     }
+
+// Part E
+// for (var i = 0; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//     document.write(i+"k")
+//     }
+// }
+
+//Question#7
+
+// var bakeryItem = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+// var userInput = prompt("Welcome to ABC bakery.What do you want to order")
+// console.log(userInput, "userInput")
+
+// var isMatch = false
+
+// for (var i = 0; i < bakeryItem.length; i++) {
+//     if (bakeryItem[i] === userInput) {
+//         isMatch = true
+//         document.write(userInput + " " + "is avaiable at index " + i + " in our bakery <br />")
+//         break;
+//     }
+// }
+
+// if (isMatch === false) {
+//     document.write("We are sorry")
+// }
+
+// Question#8
+// var num = [24, 53, 78, 91, 12]
+// var temp = 0
+
+
+// for (var i = 0; i < num.length; i++) {
+//     if (temp < num[i]) {
+//         temp = num[i]
+//     }
+// }
+
+// document.write("largest value of num array is ", temp)
+
+// Question#9
+// var num = [24, 53, 78, 91, 12]
+// var temp = num[0]
+
+// for (var i = 0; i < num.length; i++) {
+//     if (temp > num[i]) {
+//         temp = num[i]
+//     }
+// }
+
+// document.write("smallest value of num array is ", temp)
+
+//Question#10
+// for(var i=5; i<=10; i+2){
+//     document.write(i+"<br>")
+// }
